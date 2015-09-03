@@ -51,7 +51,7 @@ var Application = React.createClass({
 				marginBottom: '8px'
 			};
 			var bannerText = {
-				minHeight: '150px',
+				minHeight: '100px',
 				color: 'white',
 				fontSize: '1.5em',
 				verticalAlign: 'bottom',
