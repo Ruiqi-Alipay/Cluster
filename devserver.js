@@ -27,6 +27,6 @@ var app = new WebpackDevServer(compiler, {
 
 app.use('/api', require('./apis'));
 app.use('/', express.static('dist'));
-app.listen(8080, () => {
-	console.log(`Webpack dev server now running at port: 8080`);
+app.listen(80, () => {
+	console.log(`Webpack dev server now running at port: 80`);
 });
